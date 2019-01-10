@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic:400,700,800&amp;subset=korean" rel="stylesheet">
+    <style>
+      #logo{
+        border-bottom:2px solid pink;
+        padding-bottom: 5px
+      }
+      #maintext{
+        text-align: center;
+        padding: 10px;
+        width: 500px;
+        margin:0;
+      }
+      #linkbar{
+        padding-top: 10px;
+        border-right: 2px solid pink;
+        font-size: 25px;
+        padding-left: 20px
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #comu{
+        font-family: "Do Hyeon", sans-serif;
+        font-size: 30px
+      }
+      #copyright{
+        font-size: 7px;
+      }
+    </style>
+    <!--로고-->
+    <div id="logo" align="center">
+      <img src="https://playentry.org/img/assets/logo_v2.png" alt="logo">
+      <span id=comu>
+        community
+      </span><br>
+      <span id=copyright>
+          Copyright © 2018 Connect Foundation. Some rights reserved.
+      </span>
+    </div>
+  </head>
+  <body>
+    <div id="grid">
+      <span id="linkbar" align="center">
+          <a href="https://www.youtube.com/c/%EC%97%94%ED%8A%B8%EB%A6%ACplayentry">
+          <img src="https://static-s.aa-cdn.net/img/gp/20600000025034/Ned_Tu_ge6GgJZ_lIO_5mieIEmjDpq9kfgD05wapmvzcInvT4qQMxhxq_hEazf8ZsqA=w300?v=1"
+          height="40px" width="40px"></a><br>
+          <a href="https://playentry.org/#!/">
+          <img src="http://kocoafab.cc/data/201603172030051120.jpg" width="96px" height="26px"></a>
+          <a href="https://post.naver.com/entrylabs"><br>
+          <img src="http://veramakeup.com/wp-content/uploads/2017/07/2b3144_9b4fd402859c496f9968fd903b501371mv2.png" width="40px" height="40px"></a>
+      </span>
+      <div id="maintext">
+      본문은 없다.
+    </div>
+    </div>
+      <div id="disqus_thread" align="center"></div>
+        <script>
+
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://entry-community.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </body>
